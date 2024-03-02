@@ -92,3 +92,23 @@ p {
   text-decoration: none;
   padding: 20px 15px;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px !important;
+  }
+
+  h2 {
+    font-size: 32px !important;
+  }
+
+  .hide-img-on-mobile {
+    display: none;
+  }
+
+  .button-link {
+    display: block;
+    margin: 0 15px;
+    text-align: center;
+  }
+}
